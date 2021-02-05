@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(165deg, #34848b, #112944);
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.logo_container {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: url("./logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.link_container {
+  border: 2px solid white;
+  border-radius: 1vh;
+  height: 10vh;
+  margin-top: 3vh;
+
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  cursor: pointer;
+}
+
+.link_container a {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.link_container a div {
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+}
+
+.link_container a div svg {
+  height: 4vh;
+  width: 4vh;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.link_container a div label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  color: aliceblue;
+
+  font-size: 1.5em;
+
+  padding-left: 0.3em;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+}
