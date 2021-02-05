@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(165deg, #34848b, #112944);
+  background: linear-gradient(165deg, #01040b, #1f5e67);
   height: 100vh;
   width: 100vw;
   padding: 10px;
@@ -17,8 +17,8 @@ li {
 }
 
 .logo_container {
-  width: 20vh;
-  height: 20vh;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   background-color: aliceblue;
   margin-right: auto;
@@ -28,15 +28,19 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .link_container {
-  border: 2px solid white;
+  border: 1px solid aliceblue;
+  background: rgba(135, 135, 135, 0.068);
   border-radius: 1vh;
-  height: 10vh;
+  height: 8vh;
   margin-top: 3vh;
 
-  width: 90vw;
+  width: 80vw;
   margin-left: auto;
   margin-right: auto;
 
@@ -59,8 +63,8 @@ li {
 }
 
 .link_container a div svg {
-  height: 4vh;
-  width: 4vh;
+  height: 3vh;
+  width: 3vh;
 
   margin-top: auto;
   margin-bottom: auto;
@@ -75,9 +79,9 @@ li {
 
   color: aliceblue;
 
-  font-size: 1.5em;
+  font-size: 1.1em;
+  padding-left: 1.1em;
 
-  padding-left: 0.3em;
   cursor: pointer;
 }
 
@@ -87,6 +91,6 @@ footer {
   left: 0;
   width: 100vw;
   text-align: center;
-  color: white;
+  color: rgb(191, 191, 191);
   font-size: 0.8em;
 }
