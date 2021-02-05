@@ -87,6 +87,7 @@ li {
 }
 
 footer {
+  z-index: 1;
   position: absolute;
   bottom: 5px;
   left: 0;
@@ -94,4 +95,13 @@ footer {
   text-align: center;
   color: rgb(191, 191, 191);
   font-size: 0.8em;
+}
+
+#visitorcounter {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 5vw;
+  margin-bottom: 3vh;
 }
