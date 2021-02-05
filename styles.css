@@ -98,7 +98,7 @@ footer {
 }
 
 #visitorcounter {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   bottom: 0;
   left: 0;
