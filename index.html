@@ -8,6 +8,19 @@
 
 
     <link rel="stylesheet" href="styles.css">
+
+
+    <script>
+        var numberofclicks = 0
+        function clickfooter() {
+            numberofclicks += 1
+            console.log('clickfooter = ', numberofclicks)
+            if (numberofclicks > 5) {
+                console.log('showing visitor counter')
+                document.getElementById('visitorcounter').style.opacity = 1
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -97,7 +110,14 @@
         </li>
     </ul>
 
-    <footer>&copy Ôlinda Jóias 2021</footer>
+    <footer onclick="clickfooter()">&copy Ôlinda Jóias 2021</footer>
+
+    <div id="visitorcounter" style="opacity: 0; z-index: -10; position: absolute; bottom: 0; left: 0;">
+        <a href='https://www.symptoma.pt/pt/info/covid-19#info'>COVID-19</a>
+        <script type='text/javascript'
+            src='https://www.freevisitorcounters.com/auth.php?id=a0048314665214f2db66074dd95e78821278b344'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/790410/t/10"></script>
+    </div>
 </body>
 
 </html>
